@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Pseudo Element</title>
+
+    <style>
+        .para1 {
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+        }
+
+        .para1::first-line {
+            color: red;
+        }
+
+        .para1::first-letter {
+            color: blue;
+            font-size: 100px;
+        }
+
+        .para1::before {
+            content: "Paragraf Öncesi"; /* Paragrafın başına bişiler ekler. Burda yazı ekledik. */
+        }
+
+        .para1::after {
+            content: url(/1.Basic_Level_CSS3/images/logo.png); /* Paragrafın sonuna bişiler ekler. Burda logo ekledik. */
+        }
+
+    </style>
+
+
+</head>
+<body>
+    
+    <p class="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates optio quod libero eum voluptate! Culpa, expedita voluptatem. Ipsa, maxime obcaecati. Illo quasi deleniti, ad aliquid sed quos doloribus, itaque perferendis quis esse corrupti, aperiam doloremque! Quam velit eaque non rerum laudantium a! Quam ratione officiis quidem esse, dolorem architecto alias, sunt cum soluta, qui modi eum. Doloremque aliquid voluptatum quas necessitatibus dolor et ducimus beatae fugit optio exercitationem ab dolore corporis vitae nulla, cupiditate quia, ad dicta provident! Commodi labore vel et modi voluptatem molestiae deleniti quisquam hic fuga illum! Fugiat soluta ab voluptatum suscipit, ea dolor obcaecati neque minus!</p>
+
+</body>
+</html>
